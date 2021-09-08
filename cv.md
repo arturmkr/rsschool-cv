@@ -4,4 +4,16 @@
 - Discord: Artur (@arturmkr)
 
 ### About myself:
-I want to learn Front-End Development in **RSSchool**!
+Learning JS Development
+
+### Skills:
+Java
+
+### Experience:
+NDI
+
+### Education:
+High
+
+### English:
+B2
