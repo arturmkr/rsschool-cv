@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Artur Mkrtychian CV</title>
+</head>
+<body>
+<div class="container">
+    <aside>
+        <section class="education">
+            <h2>Education</h2>
+            <div class="section_value">High</div>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="section_value">Java</div>
+        </section>
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="section_value">NDI</div>
+        </section>
+        <section class="english">
+            <h2>English</h2>
+            <div class="section_value">High</div>
+        </section>
+    </aside>
+
+    <div class="main">
+        <header class="header">
+            <div class="name">
+                Artur Mkrtychian
+            </div>
+        </header>
+        <div class="main_info">
+            <section class="about">
+                <h2>About Me</h2>
+                <div class="item">
+                    Learning JS Development
+                </div>
+                <h2>Contacts</h2>
+                <div class="item">
+                    Discord: Artur (@arturmkr)
+                </div>
+            </section>
+            <section class="code-example">
+                <h2>Code sample:</h2>
+                <pre>
+                        <code>
+function filterSelection(match) {
+    let count = 0;
+    document.querySelectorAll('.box').forEach(item => {
+        let name = item.querySelector('.boxLabel').innerHTML;
+        if(match === '') {
+            item.querySelector('input[type=checkbox]').checked = false;
+            return;
+        }
+
+        if (name.toUpperCase().indexOf(match.toUpperCase()) >= 0) {
+            item.querySelector('input[type=checkbox]').checked = true;
+            count++;
+        } else {
+            item.querySelector('input[type=checkbox]').checked = false;
+        }
+    });
+    document.querySelector('.selectedValue span').innerHTML = count;
+}
+                        </code>
+                            </pre>
+            </section>
+        </div>
+        <footer>
+            <div class="footer">
+                <a href="https://rs.school/js/" target="_blank"><img src="img/rs_school_js.svg" alt="rs_school"></a>
+                <a href="https://github.com/arturmkr" target="_blank"><img src="img/GitHub-logo.jpg" alt="GitHub"></a>
+            </div>
+            <div class="created">2021</div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
