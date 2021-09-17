@@ -1,0 +1,56 @@
+
+body {
+    background-color: #111;
+    display: block;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    background-color: #202026;
+    color: #fff;
+}
+
+aside section {
+    padding-left: 20px;
+}
+
+div.main {
+    width: 70%;
+    float: right;
+    background-color: #fff;
+    color: #2d2d2d;
+}
+
+div.footer > a > img {
+    height: 100px;
+}
+
+div.main_info {
+    padding-left: 20px;
+}
+
+header.header {
+    height: 100px;
+    background-color: #fecb00;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 47px;
+    padding-left: 20px;
+}
+
+div.name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.created{
+    padding-left: 90%;
+}
